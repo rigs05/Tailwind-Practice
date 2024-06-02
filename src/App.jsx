@@ -23,6 +23,17 @@ function App() {
         <div className='bg-blue-500'>text3</div>
         <div className='bg-yellow-500'>text4</div>
       </div>
+
+      {/* Using Grid */}
+      <div className='grid grid-cols-3 gap-2'>
+        <div className='bg-orange-500 col-span-3 md:col-span-2 m-2 p-2 rounded-md'>
+          grid 1
+        </div>
+        <div className='bg-violet-500 col-span-3 md:col-span-1 m-2 p-2 rounded-md'>
+          grid 2
+        </div>
+        <div className='bg-gray-500 col-span-3 m-2 p-2 rounded'>grid 3</div>
+      </div>
     </>
   );
 }
